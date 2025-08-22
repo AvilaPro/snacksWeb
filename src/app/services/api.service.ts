@@ -7,7 +7,7 @@ import { Producto, Reunion, Asignacion } from '../models/producto.model';
   providedIn: 'root'
 })
 export class ApiService {
-  private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'https://snacksserver-production.up.railway.app';
 
   constructor(private http: HttpClient) {}
 
