@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/snacks-control/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
